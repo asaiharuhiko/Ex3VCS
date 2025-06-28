@@ -14,7 +14,11 @@ int main(){
         printf("Die %d: %d\n", i + 1, d[i]);
     }
     printf("Total value: %d\n", total);
-
+    if(total > 7){
+        printf("You won\n");
+    } else{
+        printf("You lost\n");
+    }
 
     return 0;
 }
